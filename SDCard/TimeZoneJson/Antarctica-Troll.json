@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Troll","posix":"<+00>0<+02>-2,M3.5.0/1,M10.5.0/3","limit":[{"minLat":0,"minLong":-86,"maxLat":25,"maxLong":-68,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":0,"long":-86},{"lat":15,"long":-86},{"lat":25,"long":-86},{"lat":25,"long":-68},{"lat":0,"long":-68},{"lat":0,"long":-86}]]}]}

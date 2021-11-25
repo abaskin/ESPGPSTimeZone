@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Syowa","posix":"<+03>-3","limit":[{"minLat":25,"minLong":-86,"maxLat":55,"maxLong":-64,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":25,"long":-86},{"lat":30,"long":-86},{"lat":45,"long":-86},{"lat":55,"long":-86},{"lat":55,"long":-64},{"lat":25,"long":-68},{"lat":25,"long":-86}]]}]}

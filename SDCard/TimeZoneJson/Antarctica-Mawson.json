@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Mawson","posix":"<+05>-5","limit":[{"minLat":55,"minLong":-86,"maxLat":77.5,"maxLong":-64,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":55,"long":-86},{"lat":60,"long":-86},{"lat":75,"long":-86},{"lat":77.5,"long":-86},{"lat":77.5,"long":-68},{"lat":55,"long":-64},{"lat":55,"long":-86}]]}]}

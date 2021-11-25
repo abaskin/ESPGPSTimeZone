@@ -1,0 +1,76 @@
+#ifndef GEO_JSON_HPP
+#define GEO_JSON_HPP
+
+#include <string>
+#include <vector>
+
+#include <document.h>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//coord_t
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class coord_t {
+  public:
+  coord_t(const char* latS, const char* longS) :
+    latStr(latS),
+    longStr(longS),
+    latNum(std::stod(latStr.c_str())),
+    longNum(std::stod(longStr.c_str())){};
+  std::string latStr, longStr;
+  double latNum, longNum;
+};
+
+///////////////////////////////////////////////////////////////////////////////////////
+//polygon_t
+///////////////////////////////////////////////////////////////////////////////////////
+
+using polygon_t = std::vector<std::vector<coord_t>>;
+
+///////////////////////////////////////////////////////////////////////////////////////
+//geometry_t
+///////////////////////////////////////////////////////////////////////////////////////
+
+class geometry_t {
+  public:
+    geometry_t(){};
+    std::string m_type;  // "MultiPolygon", "Polygon", "Point"
+    std::vector<polygon_t> m_polygons;
+};
+
+///////////////////////////////////////////////////////////////////////////////////////
+//feature_t
+///////////////////////////////////////////////////////////////////////////////////////
+
+class feature_t {
+  public:
+    feature_t(){};
+    std::string m_name;
+    std::string m_tzid;
+    std::vector<geometry_t> m_geometry;
+};
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//geojson_t
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class geojson_t {
+  public:
+    geojson_t(){}
+    bool convert(const char* file_name);
+
+    //storage is a list of features 
+    std::vector<feature_t> m_feature;
+
+  private:
+    bool parse_feature(const std::string& prefix);
+    bool parse_geometry(const std::string& prefix, feature_t& feature);
+    bool parse_polygon(const std::string& jsonPtr, geometry_t& geometry);
+    inline rapidjson::Value* getPtrValue(const std::string& prefix,
+                                         const std::string& ptrPath = "") const;
+
+    std::unique_ptr<rapidjson::Document> doc{new rapidjson::Document{}};
+};
+
+#endif

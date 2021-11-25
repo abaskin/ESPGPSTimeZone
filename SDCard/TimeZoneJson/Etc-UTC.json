@@ -1,0 +1,1 @@
+{"tzName":"Etc/UTC","posix":"UTC0","limit":[{"minLat":-17,"minLong":-86,"maxLat":-5.5,"maxLong":-69,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":-17,"long":-86},{"lat":-15,"long":-86},{"lat":-5.5,"long":-86},{"lat":-5.5,"long":-69},{"lat":-17,"long":-71},{"lat":-17,"long":-86}]]}]}

@@ -1,0 +1,13 @@
+# keywords for ESPEvent library
+
+# classes
+ESPGPSTimeZone	KEYWORD1
+
+# functions
+findTZ	KEYWORD2
+inCircle	KEYWORD2
+tzName	KEYWORD2
+posix   KEYWORD2
+radius  KEYWORD2
+
+# constants

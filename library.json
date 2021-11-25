@@ -1,0 +1,35 @@
+{
+  "name": "ESPEvent",
+  "version": "1.0.0",
+  "description": "A GPS coordinate to time zonelibrary for ESP8266/ESP32.",
+  "keywords": "time",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/abaskin/ESPGPSTimeZone"
+  },
+  "authors":
+  [
+    {
+      "name": "Andre Baskin",
+      "email": "andre@telatomica.com",
+      "url": "https://github.com/abaskin",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "exclude": [
+    ".github"
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "dependencies":
+  {
+    "https://github.com/mrfaptastic/json-streaming-parser2.git": "^2.0.3",
+    "bblanchon/ArduinoJson": "^6.18.5",
+  }
+}

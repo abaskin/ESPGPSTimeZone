@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Casey","posix":"<+11>-11","limit":[{"minLat":97,"minLong":-70,"maxLat":120,"maxLong":-64,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":97,"long":-70},{"lat":115,"long":-70},{"lat":120,"long":-70},{"lat":120,"long":-65},{"lat":97,"long":-64},{"lat":97,"long":-70}]]}]}

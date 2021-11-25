@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Palmer","posix":"<-03>3","limit":[{"minLat":-65.5,"minLong":-65.25,"maxLat":-63.8,"maxLong":-64,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":-64,"long":-64},{"lat":-65,"long":-64.5},{"lat":-65.5,"long":-65.25},{"lat":-63.8,"long":-64.8},{"lat":-64,"long":-64}]]}]}

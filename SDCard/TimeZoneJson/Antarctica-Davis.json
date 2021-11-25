@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/Davis","posix":"<+07>-7","limit":[{"minLat":77.5,"minLong":-86,"maxLat":86,"maxLong":-65,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":77.5,"long":-86},{"lat":86,"long":-86},{"lat":86,"long":-65},{"lat":77.5,"long":-68},{"lat":77.5,"long":-86}]]}]}

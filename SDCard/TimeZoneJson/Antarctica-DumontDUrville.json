@@ -1,0 +1,1 @@
+{"tzName":"Antarctica/DumontDUrville","posix":"<+10>-10","limit":[{"minLat":120,"minLong":-70,"maxLat":160,"maxLong":-65,"id":"polygon0"}],"polygon":[{"polygon0":[[{"lat":120,"long":-70},{"lat":135,"long":-70},{"lat":150,"long":-70},{"lat":160,"long":-70},{"lat":160,"long":-65},{"lat":150,"long":-65},{"lat":135,"long":-65},{"lat":120,"long":-65},{"lat":120,"long":-70}]]}]}
